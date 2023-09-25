@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.calculator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(134, 33, 92);
+  width: 415px;
+  height: 620px;
+}
+#display {
+  width: 415px;
+  height: 100px;
+  background-color: rgb(57, 106, 179);
+  text-decoration-color: aliceblue;
+  text-align: right;
+  font-size: 65px;
+}
+button {
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  font-size: 40px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
