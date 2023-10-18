@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace  ;
+}
+.start-page{
+    width: 100vh;
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+.start-game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-page{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.score-table{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.cannot-see{
+    display: none;
+}
+img{
+    width: 150px;
+}
+button{
+    margin: 5px;
+    padding-bottom: 5px;
+}
+button:hover{
+    box-shadow: 10px 10px 8px 8px #888888;
+}
+
+.componentButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-bottom: 10px;
+}
+.computerScoreTable{
+    margin-top: 7px;
+    padding: auto;
+}
+.you-text , .computer-text{
+    font-size: 40px;
+}
+.your-choice , .computer-choice , .your-score , .computer-score{
+    font-size: 30px;
+}
+
+

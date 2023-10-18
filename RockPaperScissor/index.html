@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="start-page">
+        <h1>Are You Ready To Play Against Computer</h1>
+        <div class="start-game"><button type="button" class="btn btn-dark start-game-button">Start Game</button></div>
+    </div>
+    <div class="game-page cannot-see">
+        <div class="score-table yourScoreTable">
+            <div class="you information">
+                <h1  class="you-text">You</h1>
+                <div class="your-choice">Your Choice : <span class = "yourChoice"></span></div>
+                <div class="your-score">Your Score : <span class = "yourScore">0</span></div>
+            </div>
+        </div>
+        <div class="componentButtons">
+            <button id = "Rock"><img src="assets/rock.png" alt="Rock"></button>
+            <button id = "Paper"><img src="assets/paper.png" alt="Paper"></button>
+            <button id ="Scissor"><img src="assets/scissors.png" alt=""></button>
+        </div>
+        <div class="score-table computerScoreTable">
+            <div class="computer information">
+                <h1 class="computer-text">Computer</h1>
+                <div class="computer-choice">Computer Choice : <span class = "computerChoice"></span></div>
+                <div class="computer-score">Computer Score : <span class = "computerScore">0</span></div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <script src = "script.js"></script>
+</body>
+</html>
